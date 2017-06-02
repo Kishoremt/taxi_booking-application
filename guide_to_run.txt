@@ -1,0 +1,23 @@
+Run "npm run index" to start the server.
+
+## Book a cab
+http://localhost:3000/book?lattitude=10&longitude=20&color=white
+
+type: GET
+
+parameters: lattitude - lattitude of the user,
+            longitude - longitude of the user,
+            color - color of the cab required
+
+## Complete a Ride
+http://localhost:3000/complete?id=1&lattitude=10&longitude=20
+
+type: GET
+
+parameters: lattitude - lattitude of the destination,
+            longitude - longitude of the destination,
+            id - Cab ID
+
+##to show all the drivers information
+
+http://localhost:3000/showall

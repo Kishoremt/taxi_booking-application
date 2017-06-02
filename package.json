@@ -1,0 +1,18 @@
+{
+  "name": "kishore_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongoose": "^4.10.4",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "index": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
